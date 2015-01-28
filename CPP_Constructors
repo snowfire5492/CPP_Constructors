@@ -1,0 +1,25 @@
+/*
+ * Title: C++ practice code
+ * @author: Eric Schenck
+ *
+ *
+ */
+
+#include <iostream>
+#include "Cat.h"
+
+using namespace std;
+
+int main(){
+
+
+	Cat elsa(true); // object instantiation
+	elsa.setAge(4);
+
+	cout << "Elsa's age is: " << elsa.getAge() << endl;
+
+	elsa.speak();
+
+	return 0;
+}
+
